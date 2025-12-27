@@ -20,14 +20,14 @@ A RESTful API for managing movies, genres, and users. Built with Node.js, Expres
 
 ## API Endpoints
 
-| Method | Endpoint      | Description            |
-| :----- | :------------ | :--------------------- |
-| GET    | `/api/movies` | Get all movies         |
-| POST   | `/api/movies` | Create a new movie     |
-| GET    | `/api/genres` | Get all genres         |
-| POST   | `/api/genres` | Create a new genre     |
-| POST   | `/api/users`  | Register a new user    |
-| POST   | `/api/auth`   | Login user             |
+| Method | Endpoint             | Description            |
+| :----- | :------------------  | :--------------------- |
+| GET    | `/api/entity/movies` | Get all movies         |
+| POST   | `/api/entity/movies` | Create a new movie     |
+| GET    | `/api/entity/genres` | Get all genres         |
+| POST   | `/api/entity/genres` | Create a new genre     |
+| POST   | `/api/users`         | Register a new user    |
+| POST   | `/api/auth`          | Login user             |
 
 *(Note: This is a high-level overview. Check source files for full API details.)*
 
